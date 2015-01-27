@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Headline;
+    src: url('font/BebasNeue Bold.ttf');
+}
+
+header {
+	background-image: url('img/skyline-2k.jpg');
+	background-position: 25% 25%;
+	width: 100%;
+	min-width: 840px;
+	height: 400px;
+}
+
+header .container {
+	width: inherit;
+	height: inherit;
+	background-color: #0986D9;
+	opacity: 0.8;
+}
+
+header h1 {
+	position: relative;
+	top: -45%;
+	left: 55%;
+	font-family: Headline;
+	font-size: 96px;
+	color: #C3D6E3;
+}
+
+header  a {
+	color: inherit;
+	font-family: Headline;
+	font-size: 36px;
+}
