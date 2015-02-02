@@ -1,0 +1,6 @@
+ATL-MOCK Palette
+1.Text: #C3D6E3
+2.Main: #0986D9
+3.Secondary: #06619E
+4.Background: #032942
+5.Trim: #E30000
