@@ -6,8 +6,8 @@
 
 @media screen and (max-width: 1000px)
 {
-	.jumbotron { opacity: 0.5; }
-	header h1 { visibility: hidden;}
+	.jumbotron {opacity: 0.5;}
+	header h1 { visibility: hidden; }
 	header h1.alternate { visibility: visible; display: block; font-size: 5em; color: #032942;
 		position: absolute; line-height: 320px; width: 100%; text-align: center;}
 }
@@ -15,7 +15,8 @@
 @media screen and (max-width: 480px)
 {
 	.container-fluid { width: 100%; }
-	.jumbotron { background:none; height: inherit; opacity: 1; }
+	header { height: inherit; text-align: center; }
+	.jumbotron { background:none; height: inherit; opacity: 1; margin: 0; }
 	header h1.alternate { display: none; }
-	header h1 { visibility: visible; color:#E30000; top: 0; left: 0; line-height: 1em; }
+	header h1 { top: 0; left: 0; visibility: visible; color:#E30000; line-height: 1em; }
 }
