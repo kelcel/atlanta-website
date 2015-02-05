@@ -1,6 +1,6 @@
 body
 {
-	background-color: #C3D6E3;
+	background-color: #F7F7F7;
 }
 
 .container-fluid
@@ -8,27 +8,37 @@ body
 	width: 85%;
 }
 
-@font-face
-{
-	font-family: Heading;
-	src:  url('font/BebasNeue Bold.ttf');
-}
-
 .jumbotron
 {
-	background: url('img/skyline-2k.jpg');
+	background: url('img/skyline-web.png');
 	border-radius: 0 !important;
 	background-size: cover;
 	background-position: 5% 20%;
-	height: 350px;
+	height: inherit;
 }
 
-.jumbotron h1
+header {position: relative; height: 320px;}
+
+header h1
 {
+	margin: 0;
+	padding: 0;
 	font-family: Heading;
-	font-size: 84px;
-	color: #032942;
+	font-size: 5em;
+	color: #032942 !important;
 	position: relative;
 	top: 10%;
 	left: 57%;
+}
+
+header h1.alternate
+{
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.navbar-pill
+{
+
 }
