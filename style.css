@@ -1,6 +1,17 @@
+body
+{
+	background-color: #C3D6E3;
+}
+
 .container-fluid
 {
 	width: 85%;
+}
+
+@font-face
+{
+	font-family: Heading;
+	src:  url('font/BebasNeue Bold.ttf');
 }
 
 .jumbotron
@@ -8,11 +19,16 @@
 	background: url('img/skyline-2k.jpg');
 	border-radius: 0 !important;
 	background-size: cover;
-	background-position: 0 20%;
+	background-position: 5% 20%;
 	height: 350px;
 }
 
 .jumbotron h1
 {
-
+	font-family: Heading;
+	font-size: 84px;
+	color: #032942;
+	position: relative;
+	top: 10%;
+	left: 57%;
 }
