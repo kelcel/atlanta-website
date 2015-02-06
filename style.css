@@ -1,12 +1,16 @@
 body
 {
+	font-family: Text;
 	background-color: #F7F7F7;
+	color: #032942;
 }
 
 .container-fluid
 {
 	width: 85%;
 }
+
+header {position: relative; height: 320px;}
 
 .jumbotron
 {
@@ -17,7 +21,8 @@ body
 	height: inherit;
 }
 
-header {position: relative; height: 320px;}
+
+
 
 header h1
 {
@@ -25,11 +30,12 @@ header h1
 	padding: 0;
 	font-family: Heading;
 	font-size: 5em;
-	color: #032942 !important;
 	position: relative;
 	top: 10%;
 	left: 57%;
 }
+
+
 
 header h1.alternate
 {
@@ -38,7 +44,27 @@ header h1.alternate
 	display: none;
 }
 
-.navbar-pill
+.nav-wrapper
 {
+	text-align: center;
+}
 
+.nav
+{
+	margin: 15px 0 0 0;
+	display: inline-block;
+	border: none;
+}
+
+.nav-tabs a, .nav-tabs a:visited
+{
+	font-size: 1.5em;
+	color: #06619E;
+	border-radius: 0 !important;
+	border: none !important;
+}
+.nav-tabs a:hover, .nav-tabs a:active
+{
+	background-color: #032942 !important;
+	color: #F7F7F7;
 }

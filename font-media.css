@@ -4,6 +4,18 @@
 	src:  url('font/BebasNeue Bold.ttf');
 }
 
+@font-face
+{
+	font-family: Text;
+	src: url('font/DroidSans.ttf');
+}
+
+@font-face
+{
+	font-family: Text Bold;
+	src: url('font/DroidSans-Bold.ttf');
+}
+
 @media screen and (max-width: 1000px)
 {
 	.jumbotron {opacity: 0.5;}
@@ -19,4 +31,5 @@
 	.jumbotron { background:none; height: inherit; opacity: 1; margin: 0; }
 	header h1.alternate { display: none; }
 	header h1 { top: 0; left: 0; visibility: visible; color:#E30000; line-height: 1em; }
+	.nav li {float:none;}
 }
