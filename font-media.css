@@ -22,6 +22,7 @@
 	header h1 { visibility: hidden; }
 	header h1.alternate { visibility: visible; display: block; font-size: 5em; color: #032942;
 		position: absolute; line-height: 320px; width: 100%; text-align: center;}
+	.col-md-4 { border:none !important; }
 }
 
 @media screen and (max-width: 480px)
