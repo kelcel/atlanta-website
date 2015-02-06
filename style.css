@@ -21,8 +21,12 @@ header {position: relative; height: 320px;}
 	height: inherit;
 }
 
-
-
+.top
+{
+	visibility: hidden;
+	position: relative;
+	top: -50px;
+}
 
 header h1
 {
@@ -142,6 +146,22 @@ h5
 p.textbox
 {
 	text-align: left;
+}
+
+.btn-info
+{
+	color: #F7F7F7;
+	background: #06619E;
+	border: none;
+	border-radius: 0;
+	position: fixed;
+	top: 50%;
+	left: 8px;
+}
+
+.btn-info:hover
+{
+	background: #0986D9;
 }
 
 footer
