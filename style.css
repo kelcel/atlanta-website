@@ -47,6 +47,7 @@ header h1.alternate
 .nav-wrapper
 {
 	text-align: center;
+	margin-bottom: 25px;
 }
 
 .nav
@@ -67,4 +68,25 @@ header h1.alternate
 {
 	background-color: #032942 !important;
 	color: #F7F7F7;
+}
+
+
+
+h2
+{
+	margin: 0 0 10px 0;
+	font-size: 24px;
+}
+
+h2 a, h2 a:hover
+{
+	color: #06619E;
+	text-decoration: none;
+}
+
+h3
+{
+	font-family: Text Bold;
+	font-size: 18px;
+	margin: 0 0 20px 0;
 }
